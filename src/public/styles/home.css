@@ -1,11 +1,18 @@
 body {
-  font-family: sans-serif, Arial;
+  font-family: Arial, sans-serif;
   background-color: #aae78b;
   text-align: center;
+  padding: 10px;
 }
 
 h1 {
   color: #0a596b;
+  font-size: 2em;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 10px 0;
 }
 
 button {
@@ -13,10 +20,21 @@ button {
   background-color: #5de3bb;
   border: none;
   color: white;
-  font-size: 16px;
+  font-size: 1em;
   cursor: pointer;
 }
 
 button:hover {
   background-color: #07625d;
+}
+
+/* Responsivo */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 1.8em;
+  }
+
+  p, button {
+    font-size: 1em;
+  }
 }
