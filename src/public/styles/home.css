@@ -28,7 +28,7 @@ button:hover {
   background-color: #07625d;
 }
 
-/* Responsivo */
+
 @media (max-width: 600px) {
   h1 {
     font-size: 1.8em;
