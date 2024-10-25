@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title FORMULARIO
+    link(rel="stylesheet" href="/styles/form.css")
+  body
+    div#container
+      form(action="/submit" method="POST")
+        div
+          label(for="name") Nombre:
+          input(type="text" id="name" name="name" placeholder="Ex. Leonardo Orellana" required)
+        div
+          label(for="age") Edad:
+          input(type="number" id="age" name="age" placeholder="Ex. 18" required)
+        div
+          label(for="email") Email:
+          input(type="email" id="email" name="email" placeholder="ejemplo@gmail.com" required)
+        div
+          button(type="submit") Enviar
